@@ -1,0 +1,29 @@
+
+  body{
+     background-color:#202020;
+     color:White;
+     font-family: 'Roboto Slab';
+  }
+    .menubar a{
+      text-decoration:none;
+      color:Whitesmoke;
+    }
+    .menubar{
+      list-style-type:none;
+    }
+    .menubar li{
+      float:left;
+      width:20%;
+      font-size:30px;
+    }
+    .menubar li a:hover{
+      color:Whitesmoke;
+      border-bottom:3px solid Yellow;
+    }
+    .profile{
+      border-radius:50%;
+      max-width:250px;
+      max-height:250px;
+      position:relative;
+      top:200px;
+    }
