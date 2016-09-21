@@ -20,6 +20,12 @@
       color:Whitesmoke;
       border-bottom:3px solid Yellow;
     }
+    .active{
+      border-bottom:3px solid Yellow;
+    }
+    .inactive{
+      border-bottom:0px;
+    }
     .profile{
       border-radius:50%;
       max-width:250px;
