@@ -3,6 +3,7 @@
      background-color:#202020;
      color:White;
      font-family: 'Roboto Slab';
+     opacity:0.3;
   }
     .menubar a{
       text-decoration:none;
