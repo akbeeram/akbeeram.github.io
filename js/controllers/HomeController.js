@@ -1,9 +1,9 @@
 (function(angular){
   'use strict';
   
-  var landing = angular.module('LandingModule',[]);
+  var landing = angular.module('HomeModule',[]);
   
-  landing.controller('LandingController',function($scope){
+  landing.controller('HomeController',function($scope){
     $scope.msg = "Hello";
   });
 }(angular));
