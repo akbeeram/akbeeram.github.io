@@ -1,8 +1,7 @@
-{{msg}}
 <ul class="menubar">
-  <li><a href="#/">HOME</a></li>
-  <li><a href="#/work">WORK</a></li>
-  <li><a href="#/crafts">CRAFTS</a></li>
-  <li><a href="#/about">ABOUT</a></li>
-  <li><a href="#/contact">CONTACT</a></li>
+  <li><a href="#/" ng-class="{'active':activeNav == 1,'inactive':activeNav != 1}">HOME</a></li>
+  <li><a href="#/work" ng-class="{'active':activeNav == 2,'inactive':activeNav != 2}">WORK</a></li>
+  <li><a href="#/crafts" ng-class="{'active':activeNav == 3,'inactive':activeNav != 3}">CRAFTS</a></li>
+  <li><a href="#/about" ng-class="{'active':activeNav == 4,'inactive':activeNav != 4}">ABOUT</a></li>
+  <li><a href="#/contact" ng-class="{'active':activeNav == 5,'inactive':activeNav != 5}">CONTACT</a></li>
 </ul>
