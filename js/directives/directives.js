@@ -3,6 +3,9 @@
   
   angular.module('akbeeram')
   .directive('headerDirective',function(){
+    return {
+      templateUrl:'../partials/header.html'  
     
+    }
   });
 });
