@@ -3,8 +3,8 @@
   
   var landing = angular.module('HomeModule',[]);
   
-  landing.controller('HomeController',function($scope){
-    $scope.msg = "Hello1";
+  landing.controller('HomeController',function($scope, $rootScope){
+    $rootScope.msg = "Hello1";
   });
   landing.controller('WorkController',function($scope){
     $scope.msg = "Hello2";
