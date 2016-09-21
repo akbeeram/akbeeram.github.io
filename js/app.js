@@ -1,4 +1,4 @@
-(angular){
+(function(angular){
   'use strict';
   
   var app = angular.module('akbeeram',['ngRoute','LandingModule']);
@@ -8,4 +8,4 @@
         templateUrl:'partials/home.html'
       })
   });
-}
+}(angular));
