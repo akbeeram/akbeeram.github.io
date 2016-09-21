@@ -1,4 +1,4 @@
-(angular)(){
+(angular)
   'use strict';
   
   var landing = angular.module('LandingModule',[]);
