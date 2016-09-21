@@ -10,19 +10,19 @@
       })
       .when("/work",{
         templateUrl:'../partials/work.html',
-        controller:'HomeController'
+        controller:'WorkController'
       })
       .when("/crafts",{
         templateUrl:'../partials/crafts.html',
-        controller:'HomeController'
+        controller:'CraftsController'
       })
       .when("/about",{
         templateUrl:'../partials/about.html',
-        controller:'HomeController'
+        controller:'AboutController'
       })
       .when("/contact",{
         templateUrl:'../partials/contact.html',
-        controller:'HomeController'
+        controller:'ContactController'
       })
   });
 }(angular));
