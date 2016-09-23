@@ -58,6 +58,7 @@
     }
     .single-skill-container{
       height:35px;
+      text-shadow: 2px 2px 5px black;
     }
     .work-link{
       text-decoration:none;
