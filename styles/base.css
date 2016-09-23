@@ -95,9 +95,8 @@
       text-shadow: 2px 2px 5px black;
     }
     input, textarea{
-      transition:box-shadow 0.2s linear;
     }
     input:focus, textarea:focus{
       box-shadow:0 0 5px yellow;
-      
+      transition:box-shadow 0.2s linear;
     }
