@@ -94,7 +94,10 @@
       font-size:24px;
       text-shadow: 2px 2px 5px black;
     }
-    input:focus{
-      box-shadow:5px yellow;
+    input, textarea{
       transition:0.2x linear;
+    }
+    input:focus, textarea:focus{
+      box-shadow:0 0 5px yellow;
+      
     }
