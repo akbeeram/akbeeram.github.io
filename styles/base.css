@@ -98,7 +98,8 @@
       outline:none;
     }
     input:focus, textarea:focus{
+      border-radius:5px;
       outline:2px solid yellow;
-      box-shadow:0 0 5px yellow;
+      box-shadow:5px 5px 5px yellow;
       transition:all 0.2s linear;
     }
