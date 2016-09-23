@@ -90,3 +90,7 @@
       border:5px solid white;
       box-shadow:5px 5px 5px black;
     }
+    .craft-info{
+      font-size:24px;
+      text-shadow: 2px 2px 5px black;
+    }
