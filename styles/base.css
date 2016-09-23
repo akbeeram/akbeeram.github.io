@@ -58,3 +58,16 @@
     .single-skill-container{
       height:35px;
     }
+    .work-link{
+      text-decoration:none;
+      color:white;
+    }
+    .work-link:active{
+      text-decoration:none;
+      color:yellow;
+    }
+    .work-link:hover{
+      text-decoration:none;
+      color:white;
+      border-bottom:3px solid Yellow;
+    }
