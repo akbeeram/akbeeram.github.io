@@ -20,7 +20,7 @@
     .menubar li a:hover{
       color:Whitesmoke;
       border-bottom:3px solid Yellow;
-      transition:0.5s linear;
+      transition:0.2s linear;
     }
     .active{
       border-bottom:3px solid Yellow;
