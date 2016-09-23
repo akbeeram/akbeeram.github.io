@@ -20,7 +20,6 @@
     .menubar li a:hover{
       color:Whitesmoke;
       border-bottom:3px solid Yellow;
-      transition:0.2s linear;
     }
     .active{
       border-bottom:3px solid Yellow;
@@ -94,4 +93,8 @@
     .craft-info{
       font-size:24px;
       text-shadow: 2px 2px 5px black;
+    }
+    input:focus{
+      box-shadow:5px yellow;
+      transition:0.2x linear;
     }
