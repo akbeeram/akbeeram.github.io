@@ -83,10 +83,6 @@
       border:4px solid white;
       box-shadow:5px 5px 5px black;
     }
-    .work-thumbnail:hover{
-       box-shadow:5px 5px 5px yellow;
-       transition:box-shadow 2s;
-    }
     .craft-thumbnail{
       border-radius:50%;
       max-height:250px;
