@@ -94,12 +94,3 @@
       font-size:24px;
       text-shadow: 2px 2px 5px black;
     }
-    input, textarea{
-      outline:none;
-    }
-    input:focus, textarea:focus{
-      border-radius:5px;
-      outline:2px solid yellow;
-      box-shadow:5px 5px 5px yellow;
-      transition:all 0.2s linear;
-    }
