@@ -99,6 +99,8 @@
       position:absolute;
       border:5px solid white;
       box-shadow:5px 5px 5px black;
+      max-width:1070px;
+      max-height:800px;
     }
     .craft-box:hover .craft-thumbnail-detail{
       display:block;
