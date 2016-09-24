@@ -96,6 +96,7 @@
     }
     .craft-thumbnail-detail{
       display:none;
+      position:absolute;
       border:5px solid white;
       box-shadow:5px 5px 5px black;
     }
