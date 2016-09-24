@@ -94,3 +94,6 @@
       font-size:24px;
       text-shadow: 2px 2px 5px black;
     }
+    input, textarea {
+      padding-left:5px;
+    }
