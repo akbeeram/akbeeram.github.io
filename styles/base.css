@@ -94,15 +94,17 @@
       position:relative;
       display:inline-block;
     }
-    .craft-thumbnail-detail{
-      display:none;
-      position:absolute;
-      border:5px solid white;
-      box-shadow:5px 5px 5px black;
-      max-width:1070px;
-      max-height:800px;
+    .craft-thumbnail-detail-1{
+      display: none;
+    position: absolute;
+    top: -100px;
+    left: 100px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 5px black;
+    max-width: 780px;
+    max-height: 600px;
     }
-    .craft-box:hover .craft-thumbnail-detail{
+    .craft-box:hover .craft-thumbnail-detail-1{
       display:block;
     }
     .craft-info{
